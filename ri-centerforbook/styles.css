@@ -7,6 +7,7 @@ img {
     margin-right: auto;
     padding: 8px 0px;
     max-width: 700px;
+    line-height: 1.3;
 }
 
 img {
@@ -59,4 +60,9 @@ h2 {
 .byline {
     color: #0868ac;
     text-align: right;
+    margin-bottom: 0;
+}
+
+.photobar {
+    max-width: 800px;
 }
