@@ -6,11 +6,15 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 8px 0px;
-    max-width: 640px;
+    max-width: 700px;
 }
 
 img {
     display: block;
+}
+
+.header {
+    padding: 0px 0px
 }
 
 .logo {
@@ -22,6 +26,15 @@ img {
     max-width: 560px;
 }
 
+.sub {
+    font-family: "Palatino";
+    font-size: 21px;
+    text-align: center;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+    padding: 0px;
+}
+
 p {
     font-size: 18px;
     font-family: "Ardoise";
@@ -30,16 +43,20 @@ p {
 h1,
 h2 {
     font-family: "Palatino";
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding: 0px
 }
 
-
 .divider {
-    height: 2px;
-    background-color: #0868ac;
-    max-width: 640px;
-    margin: 0 auto;
+    padding: 0px 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 800px;
 }
 
 .byline {
-    color: lightseagreen;
+    color: #0868ac;
+    text-align: right;
 }
