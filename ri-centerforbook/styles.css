@@ -1,44 +1,45 @@
-img,
 p,
 h1,
 h2,
-.divider {
+img {
     width: 100%;
-    max-width: 640px;
     margin-left: auto;
     margin-right: auto;
+    padding: 8px 0px;
+    max-width: 640px;
 }
 
 img {
     display: block;
-    padding: 15px 0px
+}
+
+.logo {
+    padding: 8px 0px;
+    max-width: 250px;
+}
+
+.tall {
+    max-width: 560px;
 }
 
 p {
     font-size: 18px;
-    line-height: 1.4;
-    font-family: "Crimson Text";
+    font-family: "Ardoise";
 }
 
 h1,
 h2 {
-    font-family: "Roboto";
+    font-family: "Palatino";
 }
+
 
 .divider {
     height: 2px;
     background-color: #0868ac;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+    max-width: 640px;
+    margin: 0 auto;
 }
 
 .byline {
     color: lightseagreen;
-    font-family: "Roboto";
-}
-
-.picture {
-    width: 100%;
-    max-width: 800px;
 }
